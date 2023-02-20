@@ -71,7 +71,7 @@ class PageYViewController: UIViewController {
 
     @objc func backAction() {
         // Handle back button tap
-        navigationController?.popViewController(animated: true)
+        navigationController?.popToRootViewController(animated: true)
     }
 
 }
